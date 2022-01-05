@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+
+    <script src="https://kit.fontawesome.com/716480e4a3.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> A Healthier Tomorrow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "103713238852495");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v12.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+ 
+</head>
+<body>
+ 
+    <section class=" sub-header">
+ 
+       <nav>
+           <a href="index.html"><img src="Images/AhT.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+           
+            
+ 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html"> NURSING HOMES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="staff.html">STAFF</a></li>
+                <li><a href="blog.html">LEAVE A COMMENT</a></li>
+                <li><a href="Bot.html">OUR BOT</a></li>
+                <li><a href="App.html">OUR APP</a></li>
+           </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()" ></i>
+       </nav>
+
+       <h1>Our Nursing Homes</h1>
+       
+   
+    </section>
+
+
+
+
+    <section class="facilities">
+        <h1> Nursing Homes</h1>
+         <p>Physiotherapy in Long Term Care</p>
+    
+         <div class="row">
+    
+         <div class="facilities-col">
+    
+    
+            <img src="Images/Sprucedale.jpg">
+            <h3> SPRUCEDALE CARE CENTRE</h3>
+            <p>
+    
+                96 Kittridge Ave E, Strathroy, ON N7G 2A8 
+               
+    
+            </p>
+    
+    
+    
+    
+         </div>
+    
+         
+         <div class="facilities-col">
+    
+    
+            <img src="Images/Middle,ong.png">
+            <h3> MIDDLESEX TERRACE NURSING HOME</h3>
+            <p>
+                2094 Gideon Dr, Delaware, ON N0L 1E0 
+            </p>
+    
+    
+    
+    
+         </div>
+    
+         <div class="facilities-col">
+    
+    
+            <img src="Images/WhatFord.jfif">
+            <h3> WATFORD QUALITY CARE</h3>
+            <p>
+                344 Victoria St, Watford, ON N0M 2S0 
+            </p>
+    
+    
+    
+    
+         </div>
+    
+         
+    
+         </div>
+    
+    
+    
+    
+    </section>
+   
+
+    <script>
+       
+ 
+        var navLinks = document.getElementById("navLinks");
+ 
+ 
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+ 
+       function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+    </script>
+
+ 
+
+     
+
+    
+
+
+<section class="footer">
+
+    <h4> ABOUT US</h4>
+    <p>A Healthier Tomorrow</p>
+    <div class="icons">
+
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-linkedin"></i>
+
+
+    </div>
+
+    <p> Made By Anav Patel</p><!--  <p> Made With <i class="fas fa-heart"></i> by NifftysMediaDesign</p> -->
+
+</section>
+
+
+
+
+ 
